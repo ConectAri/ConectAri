@@ -1,0 +1,163 @@
+<svg width="860" height="420" viewBox="0 0 860 420" xmlns="http://www.w3.org/2000/svg" role="img">
+  <title>Ariane Moura - Desenvolvedora Back-End Júnior</title>
+  <defs>
+    <style>
+      .mono { font-family: 'Courier New', Courier, monospace; }
+      .name { font-size: 28px; font-weight: 700; }
+      .name-a { fill: #ff79c6; }
+      .name-b { fill: #bd93f9; }
+      .sub { font-size: 13px; fill: #50fa7b; letter-spacing: 2px; }
+      .label { font-size: 10px; fill: #6e7681; letter-spacing: 2px; }
+      .cmd { font-size: 11px; fill: #50fa7b; }
+      .val-pink { font-size: 11px; fill: #ff79c6; }
+      .val-cyan { font-size: 11px; fill: #8be9fd; }
+      .val-yellow { font-size: 11px; fill: #f1fa8c; }
+      .val-purple { font-size: 11px; fill: #bd93f9; }
+      .val-green { font-size: 11px; fill: #50fa7b; }
+      .val-gray { font-size: 10px; fill: #8b949e; }
+      .val-white { font-size: 11px; fill: #f8f8f2; }
+      .bullet-pink { fill: #ff79c6; font-size: 11px; }
+      .tag-text { font-size: 10px; font-weight: 600; }
+      .cursor-blink { animation: blink 1.2s step-end infinite; }
+      @keyframes blink { 0%,100%{opacity:1} 50%{opacity:0} }
+      .fadein { animation: fadein 0.6s ease both; }
+      .fadein-1 { animation: fadein 0.6s 0.1s ease both; opacity:0; }
+      .fadein-2 { animation: fadein 0.6s 0.2s ease both; opacity:0; }
+      .fadein-3 { animation: fadein 0.6s 0.3s ease both; opacity:0; }
+      @keyframes fadein { from{opacity:0;transform:translateY(4px)} to{opacity:1;transform:translateY(0)} }
+    </style>
+  </defs>
+
+  <!-- Background geral -->
+  <rect width="860" height="420" rx="10" fill="#0d1117"/>
+
+  <!-- Barra superior terminal -->
+  <rect width="860" height="36" rx="10" fill="#161b22"/>
+  <rect y="20" width="860" height="16" fill="#161b22"/>
+  <circle cx="18" cy="18" r="5" fill="#ff5f56"/>
+  <circle cx="34" cy="18" r="5" fill="#ffbd2e"/>
+  <circle cx="50" cy="18" r="5" fill="#27c93f"/>
+  <text x="430" y="23" text-anchor="middle" class="mono" font-size="11" fill="#8b949e">SYS://PROFILE.INIT</text>
+  <text x="830" y="23" text-anchor="end" class="mono" font-size="11" fill="#8b949e">ariane@cloud:~$</text>
+
+  <!-- Separador central vertical -->
+  <line x1="430" y1="44" x2="430" y2="410" stroke="#21262d" stroke-width="1"/>
+
+  <!-- ═══ PAINEL ESQUERDO ═══ -->
+
+  <!-- Nome -->
+  <text x="30" y="82" class="mono name fadein">
+    <tspan class="name-a">Ariane</tspan><tspan> </tspan><tspan class="name-b">Moura</tspan>
+  </text>
+  <!-- Subtitle -->
+  <text x="30" y="101" class="mono sub fadein-1">&#x25B6; Desenvolvedora Back-End Júnior</text>
+
+  <!-- Divider -->
+  <line x1="30" y1="112" x2="410" y2="112" stroke="#21262d" stroke-width="1"/>
+
+  <!-- whoami label -->
+  <text x="30" y="130" class="mono cmd fadein-1">$ whoami</text>
+  <text x="30" y="147" class="mono val-white fadein-2">&#x2192; Desenvolvedora Júnior · em constante evolução</text>
+  <text x="30" y="162" class="mono val-white fadein-2">&#x2192; FinTech · Cloud Learner · Java enthusiast</text>
+  <text x="30" y="177" class="mono val-white fadein-2">&#x2192; Tech + Finanças = visão única de negócio</text>
+
+  <!-- Divider -->
+  <line x1="30" y1="188" x2="410" y2="188" stroke="#21262d" stroke-width="1"/>
+
+  <!-- habilidades label -->
+  <text x="30" y="206" class="mono cmd">$ cat habilidades.txt</text>
+
+  <!-- BACKEND -->
+  <text x="30" y="224" class="mono label">BACKEND</text>
+  <!-- tag Java -->
+  <rect x="30" y="229" width="40" height="18" rx="3" fill="#1a3a2a"/>
+  <text x="50" y="242" text-anchor="middle" class="mono tag-text" fill="#50fa7b">Java</text>
+  <!-- tag Spring Boot -->
+  <rect x="76" y="229" width="74" height="18" rx="3" fill="#1a3a2a"/>
+  <text x="113" y="242" text-anchor="middle" class="mono tag-text" fill="#50fa7b">Spring Boot</text>
+  <!-- tag C# -->
+  <rect x="156" y="229" width="26" height="18" rx="3" fill="#2a1a3a"/>
+  <text x="169" y="242" text-anchor="middle" class="mono tag-text" fill="#bd93f9">C#</text>
+  <!-- tag APIs REST -->
+  <rect x="188" y="229" width="66" height="18" rx="3" fill="#2a1a3a"/>
+  <text x="221" y="242" text-anchor="middle" class="mono tag-text" fill="#bd93f9">APIs REST</text>
+
+  <!-- FRONTEND (noções básicas) -->
+  <text x="30" y="264" class="mono label">FRONTEND</text>
+  <text x="95" y="264" class="mono" font-size="10" fill="#8b949e" font-style="italic">(noções básicas)</text>
+  <!-- tag HTML -->
+  <rect x="30" y="269" width="100" height="18" rx="3" fill="#3a1a0a"/>
+  <text x="80" y="282" text-anchor="middle" class="mono tag-text" fill="#ffb86c">HTML básico</text>
+  <!-- tag CSS -->
+  <rect x="136" y="269" width="96" height="18" rx="3" fill="#1a2a3a"/>
+  <text x="184" y="282" text-anchor="middle" class="mono tag-text" fill="#8be9fd">CSS básico</text>
+  <!-- tag JS -->
+  <rect x="238" y="269" width="84" height="18" rx="3" fill="#3a3a1a"/>
+  <text x="280" y="282" text-anchor="middle" class="mono tag-text" fill="#f1fa8c">JS básico</text>
+
+  <!-- CLOUD -->
+  <text x="30" y="304" class="mono label">CLOUD</text>
+  <!-- tag AWS -->
+  <rect x="30" y="309" width="148" height="18" rx="3" fill="#3a2a0a"/>
+  <text x="104" y="322" text-anchor="middle" class="mono tag-text" fill="#f1fa8c">AWS &#x27F3; em certificação</text>
+  <!-- tag Docker -->
+  <rect x="184" y="309" width="52" height="18" rx="3" fill="#1a2a3a"/>
+  <text x="210" y="322" text-anchor="middle" class="mono tag-text" fill="#8be9fd">Docker</text>
+
+  <!-- IA & AUTOMAÇÃO -->
+  <text x="30" y="344" class="mono label">IA &amp; AUTOMAÇÃO</text>
+  <!-- tag OpenAI -->
+  <rect x="30" y="349" width="104" height="18" rx="3" fill="#2a1a3a"/>
+  <text x="82" y="362" text-anchor="middle" class="mono tag-text" fill="#bd93f9">OpenAI GPT-4/5</text>
+  <!-- tag n8n -->
+  <rect x="140" y="349" width="36" height="18" rx="3" fill="#1a3a2a"/>
+  <text x="158" y="362" text-anchor="middle" class="mono tag-text" fill="#50fa7b">n8n</text>
+
+  <!-- links -->
+  <text x="30" y="394" class="mono" font-size="11" fill="#58a6ff">&#x1F517; linkedin.com/in/arianemoura</text>
+  <text x="30" y="410" class="mono" font-size="11" fill="#ff79c6">&#x1F4BB; github.com/ConectAri</text>
+
+  <!-- ═══ PAINEL DIREITO ═══ -->
+
+  <!-- Terminal header direito -->
+  <rect x="440" y="44" width="400" height="22" rx="0" fill="#161b22"/>
+  <circle cx="454" cy="55" r="4" fill="#ff5f56"/>
+  <circle cx="466" cy="55" r="4" fill="#ffbd2e"/>
+  <circle cx="478" cy="55" r="4" fill="#27c93f"/>
+  <text x="820" y="60" text-anchor="end" class="mono" font-size="10" fill="#8b949e">ariane@cloud:~$</text>
+
+  <!-- whoami -->
+  <text x="452" y="86" class="mono cmd">$ whoami</text>
+  <text x="452" y="101" class="mono val-pink">&#x2192; Desenvolvedora · FinTech · Cloud Learner</text>
+
+  <!-- aprendendo -->
+  <text x="452" y="122" class="mono cmd">$ cat aprendendo.log</text>
+  <text x="452" y="137" class="mono val-green">&#x2705; Java &amp; Spring Boot</text>
+  <text x="452" y="152" class="mono val-green">&#x2705; APIs REST · TDD · Docker</text>
+  <text x="452" y="167" class="mono val-yellow">&#x23F3; AWS Practitioner &#x27F3; em andamento</text>
+  <text x="452" y="182" class="mono val-yellow">&#x23F3; Agentes de IA com n8n</text>
+
+  <!-- diferenciais -->
+  <text x="452" y="203" class="mono cmd">$ cat diferenciais.log</text>
+  <text x="452" y="218" class="mono val-white"><tspan fill="#ff79c6">&#x25BA;</tspan> Tech + Finanças = visão única de negócio</text>
+  <text x="452" y="233" class="mono val-white"><tspan fill="#ff79c6">&#x25BA;</tspan> Formação sólida e multidisciplinar</text>
+  <text x="452" y="248" class="mono val-white"><tspan fill="#ff79c6">&#x25BA;</tspan> Escalando para Cloud &amp; soluções AWS</text>
+  <text x="452" y="263" class="mono val-white"><tspan fill="#ff79c6">&#x25BA;</tspan> Aberta a oportunidades em TI e FinTech</text>
+
+  <!-- divider -->
+  <line x1="452" y1="274" x2="830" y2="274" stroke="#21262d" stroke-width="1"/>
+
+  <!-- git log -->
+  <text x="452" y="291" class="mono cmd">$ git log --oneline</text>
+  <text x="452" y="306" class="mono val-gray">a3f1c2  Mercado Livre · APIs REST + IA (2024–2025)</text>
+  <text x="452" y="320" class="mono val-gray">b9e4d1  Itaú Unibanco · Angular + C# + Salesforce</text>
+  <text x="452" y="334" class="mono val-gray">c7a2e0  CI&amp;T · Java + Spring Boot + MySQL</text>
+
+  <!-- prompt + cursor -->
+  <text x="452" y="360" class="mono" font-size="11" fill="#50fa7b">ariane@cloud:~$</text>
+  <rect x="594" y="348" width="8" height="14" fill="#f8f8f2" class="cursor-blink"/>
+
+  <!-- frase final -->
+  <line x1="440" y1="378" x2="850" y2="378" stroke="#21262d" stroke-width="1"/>
+  <text x="645" y="398" text-anchor="middle" class="mono" font-size="11" fill="#6e7681" font-style="italic">"Júnior hoje. Sênior em construção. Sempre aprendendo." 🌱</text>
+</svg>
